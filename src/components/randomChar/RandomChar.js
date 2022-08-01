@@ -88,7 +88,7 @@ const View = ({char}) => {
             <div className="randomchar__info">
                 <p className="randomchar__name">{name}</p>
                 <p className="randomchar__descr">
-                    {description ? description.substr(0, 215) + '...' : 'Данные о персонаже отсутствуют'}                            
+                    {description}                            
                 </p>
                 <div className="randomchar__btns">
                     <a href={homepage} className="button button__main">
